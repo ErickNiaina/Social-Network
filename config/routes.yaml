@@ -1,0 +1,12 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+oauth_check:
+  path: /oauth/check/{service}
+  controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
+#  defaults:
+#    # the path of the template to render
+#    template: 'static/privacy.html.twig'
+
+
